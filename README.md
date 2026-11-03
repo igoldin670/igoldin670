@@ -1,49 +1,78 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Machine Learning. From the math to the model." width="100%">
-</p>
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/banner-mobile-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/banner-static.png">
+  <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg">
+  <img src="assets/banner.svg" alt="Isaac Goldin. From the math to the model." width="100%">
+</picture>
 
 <p align="center">
-  Building machine learning projects with clear explanations, reproducible experiments, and honest evaluation.
+  <strong>Pursuing a B.S. in Data Science at Rutgers University–New Brunswick</strong><br>
+  Computer Science track · Minors in Computer Science and Mathematics
 </p>
 
-<p align="center">
-  <a href="https://github.com/igoldin670?tab=repositories">Explore my projects</a> ·
-  <a href="https://github.com/igoldin670/on-policy-distillation">Current focus</a>
-</p>
+I'm Isaac, a Rutgers Data Science student building language-model experiments, recommendation systems, and practical ML applications. I like connecting the math to working code, testing the assumptions, and explaining what the results actually show.
 
----
+My projects explore different parts of that process: learning from a larger model, finding useful patterns in listening data, and turning predictions into an interface someone can use.
 
-### Building models. Understanding why they work.
+[Explore my repositories](https://github.com/igoldin670?tab=repositories) · [Follow the distillation experiment](https://github.com/igoldin670/on-policy-distillation/tree/dev)
 
-I'm interested in how models learn, how we measure what they learned, and how to turn those ideas into working software.
+## Selected work
 
-My projects span language-model distillation, recommendation systems, and applied machine learning. I like getting past a working demo: understanding the math, checking the implementation, and making the results easy for someone else to follow.
+### 01 / On-Policy Distillation
 
-### What I'm building
+**Can a small language model learn from feedback on responses it writes itself?**
 
-| Project | The idea | What to explore |
-| :--- | :--- | :--- |
-| **[On-Policy Distillation](https://github.com/igoldin670/on-policy-distillation)** | Teach a small language model using feedback on responses it writes itself. | Guided PyTorch notebooks covering token alignment, evaluation, supervised fine-tuning, and a controlled distillation experiment. |
-| **[Music Recommendation System](https://github.com/igoldin670/Music-Recommendation-System)** | Turn messy listening interactions into personalized recommendations. | Data preparation, implicit-feedback modeling with ALS, and ranking evaluation. |
-| **[Calorie Predictor](https://github.com/igoldin670/calorie-predictor)** | Bring a calorie-prediction model into an interactive app. | A Python project combining scikit-learn and Streamlit. |
+<a href="https://github.com/igoldin670/on-policy-distillation/tree/dev">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/distillation-mobile.svg">
+    <img src="assets/distillation.svg" alt="Student samples a response, frozen teacher scores its prefixes, and only the student is updated." width="100%">
+  </picture>
+</a>
 
-**Currently:** building and validating an educational reproduction of on-policy knowledge distillation with Qwen models. The distillation implementation is in place; its full Qwen training results are still pending. [See the latest work on `dev` →](https://github.com/igoldin670/on-policy-distillation/tree/dev)
+An educational adaptation of Generalized Knowledge Distillation using Qwen models. The notebooks connect token alignment and probability distributions to supervised fine-tuning, evaluation, and an on-policy training experiment with a continued-SFT comparison.
 
-### My toolbox
+**Progress:** the supervised cold start ran on an A100. The distillation implementation is in place; its full Qwen training results are pending.
 
-**Modeling** · Python · PyTorch · Hugging Face Transformers · scikit-learn  
-**Data & experiments** · pandas · NumPy · Jupyter · Matplotlib  
-**Building & sharing** · Git · GitHub · Streamlit · Google Colab
+`PyTorch` · `Hugging Face` · `Qwen` · `GSM8K`
 
-### How I approach a project
+[Project & evidence](https://github.com/igoldin670/on-policy-distillation) · [Guided notebooks](https://github.com/igoldin670/on-policy-distillation/tree/dev/notebooks)
 
-- **Understand the mechanism.** Follow the tensors and connect the equations to the code.
-- **Measure the right thing.** Separate task performance from formatting, parsing, and implementation checks.
-- **Make it reproducible.** Record configurations, preserve evidence, and test the important assumptions.
-- **Explain it clearly.** Write for the person opening the repository for the first time.
+### 02 / Music Recommendation System
 
-**One more project:** [Spotify to guitar tabs](https://github.com/igoldin670/Current-Song-Playing-Guitar-Tab), connecting the currently playing song with a guitar tab.
+<a href="https://github.com/igoldin670/Music-Recommendation-System">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/music-mobile.svg">
+    <img src="assets/music.svg" alt="Listening interactions become ALS user and song factors, then ranked top-10 recommendations." width="100%">
+  </picture>
+</a>
 
----
+From messy interaction logs to personalized song recommendations. This project audits and cleans the data, builds implicit-feedback signals, and uses ALS matrix factorization to rank songs. A time-based holdout and ranking metrics compare personalization with a popularity baseline.
 
-<p align="center"><em>Curious about the theory. Serious about making it work.</em></p>
+`Python` · `pandas` · `SciPy` · `implicit / ALS`
+
+[Explore the recommendation pipeline](https://github.com/igoldin670/Music-Recommendation-System)
+
+### 03 / TDEE Calorie Predictor
+
+<a href="https://github.com/igoldin670/calorie-predictor">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/calorie-mobile.svg">
+    <img src="assets/calorie.svg" alt="User inputs pass through a trained model pipeline into a Streamlit calorie-estimation app." width="100%">
+  </picture>
+</a>
+
+A reproducible prediction pipeline paired with a Streamlit app. Feature engineering, preprocessing, and gradient boosting are packaged together so training and inference use the same transformations. The interface brings the model out of the notebook and makes its estimates accessible.
+
+`scikit-learn` · `Feature engineering` · `Streamlit`
+
+[Explore the model & app](https://github.com/igoldin670/calorie-predictor)
+
+## Tools I work with
+
+**Modeling:** Python · PyTorch · Transformers · scikit-learn<br>
+**Experiments:** pandas · NumPy · Jupyter · Matplotlib<br>
+**Applications & workflow:** Streamlit · Git · GitHub · Google Colab
+
+I aim to make experiments inspectable: record the setup, separate implementation checks from model performance, preserve the evidence, and write explanations that help the next reader understand the decisions.
+
+**A musical side project:** [Spotify to guitar tabs](https://github.com/igoldin670/Current-Song-Playing-Guitar-Tab), connecting the currently playing song with a guitar tab.

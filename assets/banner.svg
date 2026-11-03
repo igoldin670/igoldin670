@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="title desc">
-<title id="title">Machine Learning | From the math to the model.</title>
-<desc id="desc">A dark blue banner with teal and violet connected nodes. Machine learning, language models, and recommendation systems.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1221"/><stop offset="1" stop-color="#192941"/></linearGradient><linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
-<rect width="1120" height="280" rx="20" fill="url(#bg)"/>
-<path d="M0 278H1120" stroke="url(#accent)" stroke-width="4"/>
-<g fill="none" stroke="#8ca2c1" stroke-opacity=".25" stroke-width="1.5"><path d="M820 65L945 43L1050 100L940 148L1040 225L830 210L820 65L940 148L945 43M830 210L940 148M820 65L1050 100L1040 225"/></g>
-<g fill="#5eead4"><circle cx="820" cy="65" r="6"/><circle cx="940" cy="148" r="9"/><circle cx="830" cy="210" r="6"/></g>
-<g fill="#a78bfa"><circle cx="945" cy="43" r="5"/><circle cx="1050" cy="100" r="7"/><circle cx="1040" cy="225" r="5"/></g>
-<g font-family="Arial,Helvetica,sans-serif"><text x="54" y="56" font-size="13" font-weight="700" letter-spacing="3" fill="#5eead4">BUILD · TEST · UNDERSTAND</text><text x="50" y="125" font-size="54" font-weight="700" fill="#f1f5f9">Machine Learning</text><text x="54" y="172" font-size="26" fill="#cbd5e1">From the math to the model.</text><text x="54" y="229" font-size="16" fill="#94a3b8">MACHINE LEARNING  /  LANGUAGE MODELS  /  RECOMMENDATION SYSTEMS</text></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="310" viewBox="0 0 1120 310" role="img" aria-labelledby="title desc">
+<title id="title">Isaac Goldin. From the math to the model.</title>
+<desc id="desc">Isaac Goldin. From the math to the model.. Original illustration for Isaac Goldin's GitHub profile.</desc>
+<defs><linearGradient id="background" x2="1" y2="1"><stop stop-color="#0b1221"/><stop offset="1" stop-color="#192941"/></linearGradient><linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<style>
+.signal { animation: travel 6s linear infinite; }
+@keyframes travel { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -100; } }
+@media (prefers-reduced-motion: reduce) { .signal { animation: none; stroke-dasharray: none; opacity: .5; } }
+</style><rect x="1" y="1" width="1118" height="308" rx="22" fill="url(#background)" stroke="#33435b"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="60" y="60" font-size="14" fill="#5eead4" font-weight="700" letter-spacing="3" text-anchor="start">BUILD · MEASURE · EXPLAIN</text><text x="55" y="146" font-size="76" fill="#f1f5f9" font-weight="700" letter-spacing="0" text-anchor="start">Isaac Goldin</text><text x="60" y="200" font-size="32" fill="#cbd5e1" font-weight="400" letter-spacing="0" text-anchor="start">From the math to the model.</text><text x="60" y="258" font-size="15" fill="#a5b4cc" font-weight="400" letter-spacing="1" text-anchor="start">LANGUAGE MODELS  /  RECOMMENDERS  /  APPLIED ML</text><path d="M798,80L930,49L1050,110L913,165L1040,259L794,251Z" fill="none" stroke="#7486aa" stroke-width="1.5" opacity=".38"/><path d="M798,80L913,165L930,49" fill="none" stroke="#7486aa" opacity=".3"/><path class="signal" d="M798,80L930,49L1050,110L913,165L1040,259L794,251Z" pathLength="100" fill="none" stroke="#5eead4" stroke-width="2.8" stroke-dasharray="12 88" stroke-dashoffset="0" stroke-linecap="round"/><circle cx="798" cy="80" r="5" fill="#5eead4"/><circle cx="930" cy="49" r="5" fill="#a78bfa"/><circle cx="1050" cy="110" r="5" fill="#5eead4"/><circle cx="913" cy="165" r="7" fill="#a78bfa"/><circle cx="1040" cy="259" r="5" fill="#5eead4"/><circle cx="794" cy="251" r="5" fill="#a78bfa"/><path d="M28,307H1092" stroke="url(#accent)" stroke-width="3"/></g></svg>
