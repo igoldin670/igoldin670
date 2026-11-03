@@ -10,7 +10,7 @@
   Computer Science track · Minors in Computer Science and Mathematics
 </p>
 
-I'm Isaac, a Rutgers Data Science student building language-model experiments, recommendation systems, and practical ML applications. I like connecting the math to working code, testing the assumptions, and explaining what the results actually show.
+I'm Isaac Goldin, a Rutgers Data Science student building language-model experiments, recommendation systems, and practical ML applications. I like connecting the math to working code, testing the assumptions, and explaining what the results actually show.
 
 My projects explore different parts of that process: learning from a larger model, finding useful patterns in listening data, and turning predictions into an interface someone can use.
 
