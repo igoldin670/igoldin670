@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="title desc">
+<title id="title">Isaac Goldin | From the math to the model.</title>
+<desc id="desc">A dark blue banner with teal and violet connected nodes. Machine learning, language models, and recommendation systems.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1221"/><stop offset="1" stop-color="#192941"/></linearGradient><linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<rect width="1120" height="280" rx="20" fill="url(#bg)"/>
+<path d="M0 278H1120" stroke="url(#accent)" stroke-width="4"/>
+<g fill="none" stroke="#8ca2c1" stroke-opacity=".25" stroke-width="1.5"><path d="M820 65L945 43L1050 100L940 148L1040 225L830 210L820 65L940 148L945 43M830 210L940 148M820 65L1050 100L1040 225"/></g>
+<g fill="#5eead4"><circle cx="820" cy="65" r="6"/><circle cx="940" cy="148" r="9"/><circle cx="830" cy="210" r="6"/></g>
+<g fill="#a78bfa"><circle cx="945" cy="43" r="5"/><circle cx="1050" cy="100" r="7"/><circle cx="1040" cy="225" r="5"/></g>
+<g font-family="Arial,Helvetica,sans-serif"><text x="54" y="56" font-size="13" font-weight="700" letter-spacing="3" fill="#5eead4">BUILD · TEST · UNDERSTAND</text><text x="50" y="125" font-size="54" font-weight="700" fill="#f1f5f9">Isaac Goldin</text><text x="54" y="172" font-size="26" fill="#cbd5e1">From the math to the model.</text><text x="54" y="229" font-size="16" fill="#94a3b8">MACHINE LEARNING  /  LANGUAGE MODELS  /  RECOMMENDATION SYSTEMS</text></g>
+</svg>
